@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="loginBtn">#910d0d0d</color>
+    <color name="profilBtn">#91fae4a6</color>
+    <color name="loginText">#b4000000</color>
+    <color name="singName">#b41e63a7</color>
+    <color name="profildeneme">#3d62a4e6</color>
+    <color name="profiltextcolor">#8c1b1c1e</color>
+</resources>

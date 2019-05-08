@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".rockpage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/basImage"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:src="@drawable/yariekran1" />
+
+
+
+    <ImageView
+        android:id="@+id/ekran2"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/musicplayer1"
+        android:layout_below="@+id/basImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/sammy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/basImage"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/ekran2"
+            android:textColor="@color/singName"
+            android:text="Sammy Hagar - I'cant Drive 55"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ekran3"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/musicplayer1"
+            android:layout_below="@+id/ekran2"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/kansas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sammy"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="31dp"
+            android:layout_toRightOf="@+id/ekran3"
+            android:text="Kansas - Carry On Wayward Son"
+            android:textColor="@color/singName"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ekran4"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/musicplayer1"
+            android:layout_below="@+id/ekran3"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/scarpion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kansas"
+            android:layout_marginLeft="49dp"
+            android:layout_marginTop="33dp"
+            android:layout_toRightOf="@+id/ekran3"
+            android:text="Scarpions - Rock You Like "
+            android:textColor="@color/singName"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ekran5"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/musicplayer1"
+            android:layout_below="@+id/ekran4"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/molly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scarpion"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="32dp"
+            android:layout_toRightOf="@+id/ekran3"
+            android:text="Molly Hatchet - Flirtin With Disaster"
+            android:textColor="@color/singName"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ekran6"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/musicplayer1"
+            android:layout_below="@+id/ekran5"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/styx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/molly"
+            android:layout_marginLeft="99dp"
+            android:layout_marginTop="29dp"
+            android:layout_toRightOf="@+id/ekran3"
+            android:text="Styx - Renegade"
+            android:textColor="@color/singName"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ekran7"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/musicplayer1"
+            android:layout_below="@+id/ekran6"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/special"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/styx"
+            android:layout_marginLeft="67dp"
+            android:layout_marginTop="32dp"
+            android:layout_toRightOf="@+id/ekran3"
+            android:text="Special - Hold On Loosely"
+            android:textColor="@color/singName"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ekran8"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/musicplayer1"
+            android:layout_below="@+id/ekran7"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/ramjam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/special"
+            android:layout_marginLeft="67dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/ekran3"
+            android:text="Ram Jam - Black Petty"
+            android:textColor="@color/singName"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ekran9"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/musicplayer1"
+            android:layout_below="@+id/ekran8"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/john"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ramjam"
+            android:layout_marginLeft="53dp"
+            android:layout_marginTop="28dp"
+            android:layout_toRightOf="@+id/ekran3"
+            android:text="John Cougar - Jack || Diane"
+            android:textColor="@color/singName"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ekran10"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/musicplayer1"
+            android:layout_below="@+id/ekran9"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/john"
+            android:layout_marginLeft="88dp"
+            android:layout_marginTop="33dp"
+            android:layout_toRightOf="@+id/ekran3"
+            android:text="Yes - Roundabout"
+            android:textColor="@color/singName"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ekran11"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/musicplayer1"
+            android:layout_below="@+id/ekran10"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/war"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/yes"
+            android:layout_marginLeft="97dp"
+            android:layout_marginTop="27dp"
+            android:layout_toRightOf="@+id/ekran3"
+            android:text="War - Low Rider"
+            android:textColor="@color/singName"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</ScrollView>
